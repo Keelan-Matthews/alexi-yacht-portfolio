@@ -36,3 +36,20 @@ html {
     font-family: 'Vollkorn', serif;
     font-style: italic;
 }
+
+@media screen and (max-width: 1600px) {
+    .backgroundVideo {
+        width: 1600px !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .header-name {
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    .backgroundVideo {
+        width: 1900px !important;
+    }
+}

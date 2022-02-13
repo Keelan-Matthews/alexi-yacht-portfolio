@@ -8,7 +8,7 @@ export default function header() {
         src={oceanBackground}
         autoPlay muted
         loop
-        className="vw-100 position-fixed z-index backgroundVideo"
+        className="w-100 position-fixed z-index backgroundVideo"
       >
       </video>
       <div className="d-flex flex-column align-items-center header-padding">

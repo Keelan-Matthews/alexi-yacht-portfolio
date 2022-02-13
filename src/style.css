@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x:hidden;
+}
+
+.backgroundVideo {
+    z-index: -10;
+}
+
+.header-name {
+    font-size: 7rem;
+    letter-spacing: 15px;
+}
+
+.header-padding {
+    padding-top: 250px;
+    height: 80vh;
+}
+
+.skill-illustration {
+    width: 70px;
+}
+
+.qualifications-card {
+    width: 180px;
+    height: 270px;
+    text-align: center;
+}
+
+.serif-heading {
+    font-family: 'Vollkorn', serif;
+    font-style: italic;
+}

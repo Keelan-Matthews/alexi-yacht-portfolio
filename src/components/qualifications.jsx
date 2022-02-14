@@ -1,23 +1,26 @@
 import React from 'react';
-import SailorHat from '../media/svg/sailor-hat2.svg';
-import Motor from '../media/svg/motor2.svg';
-import Yacht from '../media/svg/yacht2.svg';
-import Health from '../media/svg/health-insurance2.svg';
-import License from '../media/svg/driver-license2.svg';
-import Diving from '../media/svg/diving2.svg';
+import SailorHat from '../media/svg/sailor-hat.svg';
+import Motor from '../media/svg/motor.svg';
+import Yacht from '../media/svg/yacht.svg';
+import Health from '../media/svg/health-insurance.svg';
+import License from '../media/svg/driver-license.svg';
+import Diving from '../media/svg/diving.svg';
+import STWC from '../media/svg/stwc.svg';
 
 export default function () {
   return (
     <div className="vw-100 py-5 off-white bg-primary" id="qualifications">
-        <div className="container my-5 py-5">
-            <h1 className="mb-5">Qualifications</h1>
+        <div className="my-5 py-5">
+            <div className="container">
+                <h1 className="mb-5">Qualifications</h1>
+            </div>
             <div className="d-flex flex-wrap justify-content-center">
                 <div className="d-flex wrap flex-column align-items-center bg-white rounded-3 qualifications-card shadow-lg px-3 m-3">
                     <img src={ SailorHat } className="skill-illustration py-5"/>
                     <p className="fw-bold">Elementary Seamanship</p>
                 </div>
                 <div className="d-flex flex-column align-items-center bg-white rounded-3 qualifications-card shadow-lg px-3 m-3">
-                    <img src={ Health } className="skill-illustration py-5"/>
+                    <img src={ STWC } className="skill-illustration py-5"/>
                     <p className="fw-bold">STCW 2010</p>
                 </div>
                 <div className="d-flex flex-column align-items-center bg-white rounded-3 qualifications-card shadow-lg px-3 m-3">
@@ -35,6 +38,10 @@ export default function () {
                 <div className="d-flex flex-column align-items-center bg-white rounded-3 qualifications-card shadow-lg px-3 m-3">
                     <img src={ Diving } className="skill-illustration py-5"/>
                     <p className="fw-bold">Open Water Diving</p>
+                </div>
+                <div className="d-flex flex-column align-items-center bg-white rounded-3 qualifications-card shadow-lg px-3 m-3">
+                    <img src={ Health } className="skill-illustration py-5"/>
+                    <p className="fw-bold">ENG 1</p>
                 </div>
             </div>
         </div>

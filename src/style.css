@@ -37,6 +37,21 @@ html {
     font-style: italic;
 }
 
+.company-logos {
+    width: 200px;
+    opacity: 0.4;
+    margin-right: 80px;
+}
+
+.navbar-active {
+    background-color: white;
+    z-index: 9999;
+}
+
+.navbar-active a {
+    color: black !important;
+}
+
 @media screen and (max-width: 1600px) {
     .backgroundVideo {
         width: 1600px !important;

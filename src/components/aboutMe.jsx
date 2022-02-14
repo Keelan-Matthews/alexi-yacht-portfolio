@@ -1,10 +1,18 @@
 import React from 'react';
 import Portrait from '../media/images/portrait.jpeg';
+import PytLogo from '../media/svg/pyt-logo.svg';
+import SSILogo from '../media/svg/ssi-logo.svg';
+import IytLogo from '../media/svg/iyt-logo.svg';
 
 export default function aboutMe() {
   return (
-    <section className="bg-white vw-100 pt-5" id="about-me">
-        <div className="container mt-5">
+    <section className="bg-white vw-100 pt-3" id="about-me">
+        <div className="d-flex flex-wrap justify-content-center container">
+            <img src={ PytLogo } className="company-logos" style={{ width: '100px' }} />
+            <img src={ SSILogo } className="company-logos" />
+            <img src={ IytLogo } className="company-logos" />
+        </div>
+        <div className="container mt-3">
             <h1 className="">About Me</h1>
             <div className="d-flex flex-wrap mt-5 justify-content-center pb-5">
                 <img src={ Portrait } className="w-25 me-5 pb-5" alt="Portrait of Alexi Papas" />

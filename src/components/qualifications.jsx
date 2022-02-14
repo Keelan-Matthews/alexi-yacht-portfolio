@@ -1,10 +1,10 @@
 import React from 'react';
-import SailorHat from '../media/svg/sailor-hat.svg';
-import Motor from '../media/svg/motor.svg';
-import Yacht from '../media/svg/yacht.svg';
-import Health from '../media/svg/health-insurance.svg';
-import License from '../media/svg/driver-license.svg';
-import Diving from '../media/svg/diving.svg';
+import SailorHat from '../media/svg/sailor-hat2.svg';
+import Motor from '../media/svg/motor2.svg';
+import Yacht from '../media/svg/yacht2.svg';
+import Health from '../media/svg/health-insurance2.svg';
+import License from '../media/svg/driver-license2.svg';
+import Diving from '../media/svg/diving2.svg';
 
 export default function () {
   return (

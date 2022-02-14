@@ -1,5 +1,5 @@
 import Header from './components/header';
-import NavBar from './components/NavBar';
+import NavBar from './components/NavBar.jsx';
 import AboutMe from './components/aboutMe';
 import Qualifications from './components/qualifications';
 import Footer from './components/footer';

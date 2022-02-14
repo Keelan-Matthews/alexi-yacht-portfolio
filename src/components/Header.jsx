@@ -6,10 +6,15 @@ import CV from '../media/pdf/alexi-papas-cv.pdf'
 
 export default function Header() {
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
+  // const [isMobile, setIsMobile] = useState(false);
 
   const onLoadedData = () => {
     setIsVideoLoaded(true);
   };
+
+  // if (window.innerWidth <= '600') {
+  //   setIsMobile(true);
+  // }
 
   return (
     <header id="header" className="header-wrapper">
@@ -22,7 +27,7 @@ export default function Header() {
       <video 
         src={oceanBackground}
         autoPlay muted
-        playsinline
+        playsInline
         loop
         className="w-100 position-fixed z-index backgroundVideo"
         onLoadedData={onLoadedData}

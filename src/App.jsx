@@ -1,4 +1,4 @@
-import Header from './components/header';
+import Header from './components/Header';
 import AboutMe from './components/aboutMe';
 import Qualifications from './components/qualifications';
 import Footer from './components/footer';

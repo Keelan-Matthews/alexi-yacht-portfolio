@@ -6,6 +6,11 @@ import Health from '../media/svg/health-insurance.svg';
 import License from '../media/svg/driver-license.svg';
 import Diving from '../media/svg/diving.svg';
 import STWC from '../media/svg/stwc.svg';
+import QualificationCard from './QualificationCard';
+import Seamanship from '../media/pdf/elementary-seamanship.pdf';
+import RibMaster from '../media/pdf/rib-master.pdf';
+import STCWForm from '../media/pdf/stcw.pdf';
+import YachtRating from '../media/pdf/yacht-rating.pdf';
 
 export default function () {
   return (
@@ -15,34 +20,13 @@ export default function () {
                 <h1 className="mb-5 section-heading fw-bold">Qualifications</h1>
             </div>
             <div className="d-flex flex-wrap justify-content-center">
-                <div className="d-flex wrap flex-column align-items-center bg-white rounded-3 qualifications-card shadow-lg px-3 m-3">
-                    <img src={ SailorHat } className="skill-illustration py-5"/>
-                    <p className="fw-bold">Elementary Seamanship</p>
-                </div>
-                <div className="d-flex flex-column align-items-center bg-white rounded-3 qualifications-card shadow-lg px-3 m-3">
-                    <img src={ STWC } className="skill-illustration py-5"/>
-                    <p className="fw-bold">STCW 2010</p>
-                </div>
-                <div className="d-flex flex-column align-items-center bg-white rounded-3 qualifications-card shadow-lg px-3 m-3">
-                    <img src={ Motor } className="skill-illustration py-5"/>
-                    <p className="fw-bold">Small Powerboat & RIB Master License</p>
-                </div>
-                <div className="d-flex flex-column align-items-center bg-white rounded-3 qualifications-card shadow-lg px-3 m-3">
-                    <img src={ Yacht } className="skill-illustration py-5"/>
-                    <p className="fw-bold">MCA Approved Yacht Rating Certificate</p>
-                </div>
-                <div className="d-flex flex-column align-items-center bg-white rounded-3 qualifications-card shadow-lg px-3 m-3">
-                    <img src={ License } className="skill-illustration py-5"/>
-                    <p className="fw-bold">Driver's License</p>
-                </div>
-                <div className="d-flex flex-column align-items-center bg-white rounded-3 qualifications-card shadow-lg px-3 m-3">
-                    <img src={ Diving } className="skill-illustration py-5"/>
-                    <p className="fw-bold">Open Water Diving</p>
-                </div>
-                <div className="d-flex flex-column align-items-center bg-white rounded-3 qualifications-card shadow-lg px-3 m-3">
-                    <img src={ Health } className="skill-illustration py-5"/>
-                    <p className="fw-bold">ENG 1</p>
-                </div>
+                <QualificationCard illustration={ SailorHat } title="Elementary Seamanship" pdf={ Seamanship } name="Elementary Seamanship Certificate" />
+                <QualificationCard illustration={ STWC } title="STCW 2010" pdf={ STCWForm } />
+                <QualificationCard illustration={ Motor } title="Small Powerboat & RIB Master License" pdf={ RibMaster } name="RIB Master License" />
+                <QualificationCard illustration={ Yacht } title="MCA Approved Yacht Rating Certificate" pdf={ YachtRating } name="Yacht Rating Certificate" />
+                <QualificationCard illustration={ Diving } title="Open Water Diving" />
+                <QualificationCard illustration={ Health } title="ENG 1" />
+                <QualificationCard illustration={ License } title="Driver's License" />
             </div>
         </div>
     </div>

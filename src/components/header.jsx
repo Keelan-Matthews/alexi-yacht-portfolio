@@ -1,10 +1,13 @@
 import React from 'react';
 import oceanBackground from '../media/video/ocean.mp4';
+import fallbackBackground from '../media/images/fallback-background.jpg';
 import Typed from 'react-typed';
+import CV from '../media/pdf/alexi-papas-cv.pdf'
 
 export default function header() {
   return (
     <header id="header">
+      <img src={ fallbackBackground } alt="" className="w-100 position-fixed backgroundImage" />
       <video 
         src={oceanBackground}
         autoPlay muted
@@ -24,8 +27,8 @@ export default function header() {
         <h1 className="text-white fw-bold header-name serif-heading">Alexi Papas</h1>
         <h3 className="text-white">Certified Deckhand</h3>
         <div className="mt-5">
-          <a href="#" role="button" className="btn btn-light btn-lg me-3">Download CV</a>
-          <a href="#" role="button" className="btn btn-outline-light text-white btn-lg">Contact Me</a>
+          <a href={ CV } role="button" className="btn btn-light btn-lg me-3" download="Alexi Papas CV">Download CV</a>
+          <a href="mailto:alexipapas2@icloud.com" role="button" className="btn btn-outline-light text-white btn-lg">Contact Me</a>
         </div>
       </div>
     </header>

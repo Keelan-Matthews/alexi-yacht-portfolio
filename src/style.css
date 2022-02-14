@@ -12,6 +12,10 @@ html {
     z-index: -10;
 }
 
+.backgroundImage {
+    z-index: -100;
+}
+
 .header-name {
     font-size: 7rem;
     letter-spacing: 15px;
@@ -57,7 +61,7 @@ html {
 }
 
 @media screen and (max-width: 1600px) {
-    .backgroundVideo {
+    .backgroundVideo, .backgroundImage {
         width: 1600px !important;
     }
 }
@@ -87,7 +91,7 @@ html {
         font-size: 4rem;
     }
 
-    .backgroundVideo {
+    .backgroundVideo, .backgroundImage {
         width: 1600px !important;
     }
 
@@ -126,10 +130,14 @@ html {
 @media screen and (max-width: 500px) {
     .qualifications-card {
         width: 140px;
-        height: 170px;
+        height: 210px;
     }
 
-    .qualifications-card>p {
+    .qualifications-card p {
+        font-size: 0.7rem;
+    }
+
+    .qualifications-card .card-button {
         font-size: 0.7rem;
     }
 

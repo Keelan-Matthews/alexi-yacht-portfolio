@@ -7,7 +7,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export default function footer() {
   return (
-    <footer className="bg-white vw-100 d-flex flex-wrap justify-content-center py-5">
+    <footer className="bg-white vw-100 d-flex flex-wrap justify-content-center py-5 px-5">
       <div className="me-4">
         <div className="d-flex align-items-center mb-3">
           <FontAwesomeIcon icon={ faMapMarkerAlt } className="me-2"/>

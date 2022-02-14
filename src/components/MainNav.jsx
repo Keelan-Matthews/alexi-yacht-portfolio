@@ -32,13 +32,13 @@ export default function MainNav() {
         <Collapse isOpen={isOpen} navbar>
             <Nav className="ms-auto" navbar>
                 <NavItem>
-                    <NavLink href="#header">Home</NavLink>
+                    <NavLink href="#header" className="text-white">Home</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="#about-me">About Me</NavLink>
+                    <NavLink href="#about-me" className="text-white">About Me</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="#qualifications">Qualifications</NavLink>
+                    <NavLink href="#qualifications" className="text-white">Qualifications</NavLink>
                 </NavItem>
             </Nav>
         </Collapse>

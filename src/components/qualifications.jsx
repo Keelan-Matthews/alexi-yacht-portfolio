@@ -10,7 +10,7 @@ export default function () {
   return (
     <div className="vw-100 py-5 off-white bg-primary" id="qualifications">
         <div className="container my-5 py-5">
-            <h1 className="serif-heading mb-5">Qualifications</h1>
+            <h1 className="mb-5">Qualifications</h1>
             <div className="d-flex flex-wrap justify-content-center">
                 <div className="d-flex wrap flex-column align-items-center bg-white rounded-3 qualifications-card shadow-lg px-3 m-3">
                     <img src={ SailorHat } className="skill-illustration py-5"/>

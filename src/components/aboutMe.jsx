@@ -5,11 +5,11 @@ export default function aboutMe() {
   return (
     <section className="bg-white vw-100 pt-5" id="about-me">
         <div className="container mt-5">
-            <h1 className="serif-heading">About Me</h1>
+            <h1 className="">About Me</h1>
             <div className="d-flex flex-wrap mt-5 justify-content-center pb-5">
                 <img src={ Portrait } className="w-25 me-5 pb-5" alt="Portrait of Alexi Papas" />
                 <div style={{ width: '500px'}}>
-                    <p className="serif-heading fs-4">Objective</p>
+                    <p className="fs-4">Objective</p>
                     <p>
                     I am a young, enthusiastic, humorous,
                     and driven individual, willing to learn
@@ -21,7 +21,7 @@ export default function aboutMe() {
                     for a permanent or rotational role as a
                     Deckhand on a private or charter yacht.
                     </p>
-                    <p className="serif-heading fs-4">Experience</p>
+                    <p className="fs-4">Experience</p>
                     <p>
                         No prior experience in the yachting industry but I am very determined
                         and willing to learn all about the industry and what it has to offer. I am a

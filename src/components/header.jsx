@@ -8,6 +8,7 @@ export default function header() {
       <video 
         src={oceanBackground}
         autoPlay muted
+        playsinline
         loop
         className="w-100 position-fixed z-index backgroundVideo"
       >

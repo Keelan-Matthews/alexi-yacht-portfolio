@@ -7,17 +7,17 @@ import IytLogo from '../media/svg/iyt-logo.svg';
 export default function aboutMe() {
   return (
     <section className="bg-white vw-100 pt-3" id="about-me">
-        <div className="d-flex flex-wrap justify-content-center container">
-            <img src={ PytLogo } className="company-logos" style={{ width: '100px' }} />
+        <div className="d-flex flex-wrap justify-content-center">
+            <img src={ PytLogo } className="company-logos logo-1" style={{ width: '100px' }} />
             <img src={ SSILogo } className="company-logos" />
             <img src={ IytLogo } className="company-logos" />
         </div>
         <div className="container mt-3">
-            <h1 className="">About Me</h1>
+            <h1 className="section-heading fw-bold">About Me</h1>
             <div className="d-flex flex-wrap mt-5 justify-content-center pb-5">
-                <img src={ Portrait } className="w-25 me-5 pb-5" alt="Portrait of Alexi Papas" />
-                <div style={{ width: '500px'}}>
-                    <p className="fs-4">Objective</p>
+                <img src={ Portrait } className="me-5 pb-5 portrait-image" alt="Portrait of Alexi Papas" />
+                <div style={{ width: '500px'}} className="about-me-info">
+                    <p className="fw-bold">Objective</p>
                     <p>
                     I am a young, enthusiastic, humorous,
                     and driven individual, willing to learn
@@ -29,7 +29,7 @@ export default function aboutMe() {
                     for a permanent or rotational role as a
                     Deckhand on a private or charter yacht.
                     </p>
-                    <p className="fs-4">Experience</p>
+                    <p className="fw-bold">Experience</p>
                     <p>
                         No prior experience in the yachting industry but I am very determined
                         and willing to learn all about the industry and what it has to offer. I am a

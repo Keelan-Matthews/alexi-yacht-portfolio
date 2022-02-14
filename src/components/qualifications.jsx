@@ -12,7 +12,7 @@ export default function () {
     <div className="vw-100 py-5 off-white bg-primary" id="qualifications">
         <div className="my-5 py-5">
             <div className="container">
-                <h1 className="mb-5">Qualifications</h1>
+                <h1 className="mb-5 section-heading fw-bold">Qualifications</h1>
             </div>
             <div className="d-flex flex-wrap justify-content-center">
                 <div className="d-flex wrap flex-column align-items-center bg-white rounded-3 qualifications-card shadow-lg px-3 m-3">

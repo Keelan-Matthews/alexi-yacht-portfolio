@@ -8,9 +8,9 @@ export default function aboutMe() {
   return (
     <section className="bg-white vw-100 pt-3" id="about-me">
         <div className="d-flex flex-wrap justify-content-center">
-            <img src={ PytLogo } className="company-logos logo-1" style={{ width: '100px' }} />
-            <img src={ SSILogo } className="company-logos" />
-            <img src={ IytLogo } className="company-logos" />
+            <img src={ PytLogo } className="company-logos logo-1" style={{ width: '100px' }} alt=""/>
+            <img src={ SSILogo } className="company-logos" alt="" />
+            <img src={ IytLogo } className="company-logos" alt="" />
         </div>
         <div className="container mt-3">
             <h1 className="section-heading fw-bold">About Me</h1>

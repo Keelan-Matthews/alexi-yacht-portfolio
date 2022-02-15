@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
 import oceanBackground from '../media/video/ocean.mp4';
+import MobileOceanBackground from '../media/video/ocean-portrait.mp4';
 import fallbackBackground from '../media/images/fallback-background.jpg';
 import Typed from 'react-typed';
 import CV from '../media/pdf/alexi-papas-cv.pdf'
 
 export default function Header() {
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
-  // const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   const onLoadedData = () => {
     setIsVideoLoaded(true);
+    if (window.innerWidth <= '600') {
+      setIsMobile(true);
+    }
   };
-
-  // if (window.innerWidth <= '600') {
-  //   setIsMobile(true);
-  // }
 
   return (
     <header id="header" className="header-wrapper">
@@ -25,7 +25,7 @@ export default function Header() {
         style={{ opacity: isVideoLoaded ? 0 : 1 }}
       />
       <video 
-        src={oceanBackground}
+        src={ isMobile ? MobileOceanBackground : oceanBackground }
         autoPlay muted
         playsInline
         loop

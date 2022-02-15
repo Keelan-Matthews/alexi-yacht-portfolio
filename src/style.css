@@ -92,7 +92,7 @@ html {
     }
 
     .backgroundVideo, .backgroundImage {
-        width: 1600px !important;
+        width: 100vw !important;
     }
 
     .header-padding {

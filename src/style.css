@@ -22,7 +22,7 @@ html {
 }
 
 .header-padding {
-    padding-top: 250px;
+    padding-top: 200px;
     height: 80vh;
 }
 
@@ -62,7 +62,7 @@ html {
 }
 
 .header-wrapper {
-    min-height: 80vh;
+    min-height: 700px;
 }
 
 @media screen and (max-width: 1600px) {

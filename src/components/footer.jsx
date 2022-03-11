@@ -22,7 +22,7 @@ export default function footer() {
       <div className="footer-flex">
         <div className="d-flex align-items-center mb-3">
           <FontAwesomeIcon icon={ faEnvelope } className="me-2" />
-          <a href="mailto:alexipapas2@icloud.com" className="text-black">alexipapas2@icloud.com</a>
+          <a href="mailto:alexipapasyachting@gmail.com" className="text-black">alexipapasyachting@gmail.com</a>
         </div>
           <div className="d-flex align-items-center">
             <FontAwesomeIcon icon={ faSkype } className="me-2" />

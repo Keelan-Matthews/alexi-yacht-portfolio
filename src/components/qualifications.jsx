@@ -11,6 +11,9 @@ import Seamanship from '../media/pdf/elementary-seamanship.pdf';
 import RibMaster from '../media/pdf/rib-master.pdf';
 import STCWForm from '../media/pdf/stcw.pdf';
 import YachtRating from '../media/pdf/yacht-rating.pdf';
+import ENG1 from '../media/pdf/eng1.pdf';
+import DriversPermit from '../media/pdf/driving-permit.pdf';
+
 
 export default function () {
   return (
@@ -25,8 +28,8 @@ export default function () {
                 <QualificationCard illustration={ Motor } title="Small Powerboat & RIB Master License" pdf={ RibMaster } name="RIB Master License" />
                 <QualificationCard illustration={ Yacht } title="MCA Approved Yacht Rating Certificate" pdf={ YachtRating } name="Yacht Rating Certificate" />
                 <QualificationCard illustration={ Diving } title="Open Water Diving" />
-                <QualificationCard illustration={ Health } title="ENG 1" />
-                <QualificationCard illustration={ License } title="Driver's License" />
+                <QualificationCard illustration={ Health } title="ENG 1" pdf={ ENG1 } name="ENG 1" />
+                <QualificationCard illustration={ License } title="Driver's License" pdf={ DriversPermit } name="Driver's Permit" />
             </div>
         </div>
     </div>

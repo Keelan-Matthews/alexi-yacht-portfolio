@@ -46,7 +46,7 @@ export default function Header() {
         <h3 className="text-white">Certified Deckhand</h3>
         <div className="mt-5">
           <a href={ CV } role="button" className="btn btn-light btn-lg me-3" download="Alexi Papas CV">Download CV</a>
-          <a href="mailto:alexipapas2@icloud.com" role="button" className="btn btn-outline-light text-white btn-lg">Contact Me</a>
+          <a href="mailto:alexipapasyachting@gmail.com" role="button" className="btn btn-outline-light text-white btn-lg">Contact Me</a>
         </div>
       </div>
     </header>

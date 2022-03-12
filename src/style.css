@@ -62,7 +62,7 @@ html {
 }
 
 .header-wrapper {
-    min-height: 650px;
+    min-height: 450px;
 }
 
 @media screen and (max-width: 1600px) {

@@ -15,7 +15,7 @@ export default function footer() {
         </div>
         <div className="d-flex align-items-center">
           <FontAwesomeIcon icon={ faPhone } className="me-2" />
-          <p className="mb-0">+33 7 49 60 54 77</p>
+          <p className="mb-0">+27 72 842 3975</p>
         </div>
       </div>
 

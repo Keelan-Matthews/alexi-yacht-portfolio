@@ -7,7 +7,7 @@ function QualificationCard(props) {
             <img src={ props.illustration } className="skill-illustration py-4" alt="" />
             <p className="fw-bold">{ props.title }</p>
         </div>
-        <a href={ props.pdf } role="button" className="btn btn-primary mb-3 text-muted fw-bold card-button" download={ props.name }>Certificate</a>
+        <a href={ props.pdf } role="button" className="btn btn-primary mb-3 text-muted fw-bold card-button" /*download={ props.name }*/>Certificate</a>
     </div>
   )
 }

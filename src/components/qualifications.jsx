@@ -13,6 +13,7 @@ import STCWForm from '../media/pdf/stcw.pdf';
 import YachtRating from '../media/pdf/yacht-rating.pdf';
 import ENG1 from '../media/pdf/eng1.pdf';
 import DriversPermit from '../media/pdf/driving-permit.pdf';
+import openWaterDiving from '../media/pdf/diving.pdf';
 
 
 export default function () {
@@ -27,7 +28,7 @@ export default function () {
                 <QualificationCard illustration={ STWC } title="STCW 2010" pdf={ STCWForm } />
                 <QualificationCard illustration={ Motor } title="Small Powerboat & RIB Master License" pdf={ RibMaster } name="RIB Master License" />
                 <QualificationCard illustration={ Yacht } title="MCA Approved Yacht Rating Certificate" pdf={ YachtRating } name="Yacht Rating Certificate" />
-                <QualificationCard illustration={ Diving } title="Open Water Diving" />
+                <QualificationCard illustration={ Diving } title="Open Water Diving"vpdf={ openWaterDiving } name="Open Water Diving Certificate" />
                 <QualificationCard illustration={ Health } title="ENG 1" pdf={ ENG1 } name="ENG 1" />
                 <QualificationCard illustration={ License } title="Driver's License" pdf={ DriversPermit } name="Driver's Permit" />
             </div>

@@ -4,6 +4,7 @@ import { faSkype } from "@fortawesome/free-brands-svg-icons";
 import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 export default function footer() {
   return (
@@ -14,8 +15,12 @@ export default function footer() {
           <p className="mb-0">Antibes, France</p>
         </div>
         <div className="d-flex align-items-center">
-          <FontAwesomeIcon icon={ faPhone } className="me-2" />
+          <FontAwesomeIcon icon={ faWhatsapp } className="me-2" />
           <p className="mb-0">+27 72 842 3975</p>
+        </div>
+        <div className="d-flex align-items-center">
+          <FontAwesomeIcon icon={ faPhone } className="me-2" />
+          <p className="mb-0">+33 7 49 60 54 77</p>
         </div>
       </div>
 

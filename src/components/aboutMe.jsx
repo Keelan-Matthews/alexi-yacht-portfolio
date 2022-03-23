@@ -1,5 +1,5 @@
 import React from 'react';
-import Portrait from '../media/images/portrait.jpg';
+import Portrait from '../media/images/portrait.jpeg';
 import PytLogo from '../media/svg/pyt-logo.svg';
 import SSILogo from '../media/svg/ssi-logo.svg';
 import IytLogo from '../media/svg/iyt-logo.svg';

@@ -6,6 +6,7 @@ import Health from '../media/svg/health-insurance.svg';
 import License from '../media/svg/driver-license.svg';
 import Diving from '../media/svg/diving.svg';
 import STWC from '../media/svg/stwc.svg';
+import PWC from '../media/svg/pwc.svg';
 import QualificationCard from './QualificationCard';
 import Seamanship from '../media/pdf/elementary-seamanship.pdf';
 import RibMaster from '../media/pdf/rib-master.pdf';
@@ -14,6 +15,7 @@ import YachtRating from '../media/pdf/yacht-rating.pdf';
 import ENG1 from '../media/pdf/eng1.pdf';
 import DriversPermit from '../media/pdf/driving-permit.pdf';
 import openWaterDiving from '../media/pdf/diving.pdf';
+import pwcCertificate from '../media/pdf/pwc.pdf';
 
 
 export default function () {
@@ -31,6 +33,7 @@ export default function () {
                 <QualificationCard illustration={ Diving } title="Open Water Diving" pdf={ openWaterDiving } name="Open Water Diving Certificate" />
                 <QualificationCard illustration={ Health } title="ENG 1" pdf={ ENG1 } name="ENG 1" />
                 <QualificationCard illustration={ License } title="Driver's License" pdf={ DriversPermit } name="Driver's Permit" />
+                <QualificationCard illustration={ PWC } title="PWC Certificate" pdf={ pwcCertificate } name="PWC Certificate" />
             </div>
         </div>
     </div>
